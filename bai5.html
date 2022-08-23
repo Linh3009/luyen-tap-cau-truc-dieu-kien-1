@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 5</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    let miniTest = parseInt(prompt("Nhap diem kiem tra"));
+    let midtermTest = parseInt(prompt("Nhap diem thi giua ki"))
+    let finalTest = parseInt(prompt("Nhap diem thi cuoi ki"))
+    let result = (miniTest + midtermTest + finalTest) / 3;
+    if (result < 5) {
+        alert("DTB="+result+"duoi trung binh")
+    }
+       else if(result <= 6) {
+        alert("DTB="+result+"hoc luc trung binh")
+    }
+    else if(result <= 8) {
+        alert("DTB="+result+"hoc luc kha")
+    }else if (result <= 10) {
+        alert("DTB="+result+"hoc luc gioi")
+    }
+      else
+        alert("nhap khong dung")
+</script>
